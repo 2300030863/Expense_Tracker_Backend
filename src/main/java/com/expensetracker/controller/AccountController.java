@@ -4,7 +4,7 @@ import com.expensetracker.dto.AccountDto;
 import com.expensetracker.entity.Account;
 import com.expensetracker.entity.User;
 import com.expensetracker.service.AccountService;
-import jakarta.validation.Valid;
+import javax.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
