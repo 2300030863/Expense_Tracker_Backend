@@ -5,7 +5,7 @@ import com.expensetracker.dto.TransactionRequest;
 import com.expensetracker.entity.Transaction;
 import com.expensetracker.entity.User;
 import com.expensetracker.service.TransactionService;
-import jakarta.validation.Valid;
+import javax.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
